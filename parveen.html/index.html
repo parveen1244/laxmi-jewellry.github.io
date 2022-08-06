@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+     <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background:seagreen;
+    }
+    .section{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 100px;
+        color:white;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;flex-direction: column;
+    }
+    .main-title{
+        font-size: 4em;
+        margin-bottom: 50px;
+    }
+    .content{
+        position: relative;
+        width: 1150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .content .image{
+        position: relative;
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+    }
+    .content .image img{
+        z-index: 111;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .content .text-box{
+        z-index: 222;
+        background: rgba(255,255,255,0.1);
+        backdrop-filter:blur(20px);
+        padding: 40px;
+        max-width: 400px;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 10px;
+        transform: translate(-80px, 50px);
+    }
+    .content .text-box h3{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .media-icons{
+        margin-top: 100px;
+        color:white;
+    }
+    .media-icons a{
+         color:white; 
+        font-size: 2em;
+        margin: 60px;
+    }
+    .section-title{
+        font-size: 3em;
+        margin-bottom: 80px;
+    }
+    .info-title{
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+    .info{
+        width: 700px;
+        margin-left: 50px;
+    }
+    .media-info{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .media-info li{
+        list-style: none;
+        font-size: 1.4em;
+    }
+    .media-info li a{
+        color:black;
+        text-decoration: none;
+    }
+    .media-info li:not(:last-child){
+        margin-bottom: 50px;  
+    }
+    .media-info li:nth-child(1),.media-info li:nth-child(4){
+        padding-left:100px;
+    }
+    .media-info li:nth-child(2),.media-info li:nth-child(3){
+
+    } 
+    .sec-03{
+        margin-bottom: 100px;
+
+    }
+      /* .sec-01 h2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        z-index: 200;
+        background:whitesmoke;
+        backdrop-filter:blur(100px);
+        padding: 40px;
+        max-width: 400px;
+        border: 1px solid ;
+        border-radius: 10px;
+        transform: translate(-80px, 50px); */
+    
+      
+      .section-title{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .section-title{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+     </style>
+</head>
+<body>
+    <section class="sec-01">
+        <div class="container">
+            <h2 class="main-title">LAXMI JEWELLRS</h2>
+            <div class="content">
+                <div class="image">
+                    <img src="pexels-photo-11475396.jpeg" alt="img">
+                </div>
+                <div class="text-box">
+                    <h3>products details</h3>
+                    <p>nam non? Quasi rerum veritatis mollitia, voluptatem necessitatibus possimus, fugit et quis quo tenetur atque dolorem debitis eligendi omnis vero dolor cumque! Provident quis harum ea error et atque aspernatur, ducimus corrupti vel, iusto in explicabo corporis earum soluta maxime!</p>
+                </div>
+            </div>
+                <div class="media-icons">
+                 <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                 <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                 <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                 <a href="#" class="icon"><i class="fab fa-youtube"></i></a>               
+                </div>
+        </div>
+    </section>
+    <section class="sec-02">
+        <div class="container">
+             <h3 class="section-title">LAXMI silver UNIT'S</h3>
+            <div class="content">
+            <div class="image">
+                <img src="pexels-photo-5497303.jpeg" alt="img">
+            </div>
+            <div class="info">
+                <h4 class="info-title">products detalis</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore, molestias et placeat debitis, esse nesciunt odit voluptatem adipisci provident soluta recusandae earum totam quae architecto obcaecati. Eveniet perferendis ea, provident ex facilis quasi reprehenderit veritatis sapiente officia natus cupiditate blanditiis, vel distinctio magnam sequi sint enim voluptatibus incidunt exercitationem. ipsum dolor sit amet cpti voluptatem sapiente iure minus excepturi ut nisi fugiat amet!</p>
+            </div>    
+            </div>
+        </div>
+    </section>
+    <section class="sec-03">
+        <div class="container">
+            <h4 class="section-title">LAXMI GOLD UNIT'S</h4>
+            <div class="content">
+                <div class="media-info">
+                    <li><a href="#"><i class="fab fa-facebook"></i>facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>fa-twitter</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i>fa-youtube</a></li>
+                </div>
+                <div class="image">
+                    <img src="pexels-photo-8105118.jpeg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+         ScrollReveal({ 
+        reset: true,
+        distance:'60px',
+        duration:2500,
+        Delay:400
+        });
+        ScrollReveal().reveal('.main-title .section-title', { delay: 500, origin:'left' });
+        ScrollReveal().reveal('.sec-01 .image, .info',{ delay: 600, origin:'bottom' });
+        ScrollReveal().reveal('.text-box', { delay: 700, origin:'right' });
+        ScrollReveal().reveal('.media-icons i', { delay: 500, origin:'bottom',interval:200});
+        ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin:'top'});
+        ScrollReveal().reveal('.media-info li', { delay: 600, origin:'left',interval:200 });
+        
+
+
+    </script>
+</body>
+</html>
